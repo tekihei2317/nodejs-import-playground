@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "CommonJS"
+    "outDir": "dist",
+    "target": "ES2021", // Node.16以上で使用可能
+    "module": "Node16", // ES6などにするとESMで出力できるが、一旦Node16にしておく。
+    "moduleResolution": "Node" // Node16だとantlr4のインポートでコンパイルエラーになる。ただNodeにするとCJSで出力される。
   }
 }
