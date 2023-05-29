@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "antlr4": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  }
+}
